@@ -9,7 +9,7 @@ const counterAddButton = document.getElementById('add-button');
 const counterButtons = document.getElementById('button-box');
 
 //creating variable for counter
-const counter = 0;
+let counter = 0;
 
 //function to display counter
 function renderCounter() {
